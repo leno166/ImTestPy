@@ -1,0 +1,7 @@
+pyparsing
+
+pytest
+pytest-html
+pytest-xdist
+pytest-cov
+pytest-mock
