@@ -1,5 +1,6 @@
 # 项目排除路径
 /.venv/
+/.idea/
 /htmlcov/
 /reports/
 /tests/data/
