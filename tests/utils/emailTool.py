@@ -91,4 +91,4 @@ def send(subject: str, body: str, attachments: list[str] = None,
 
 if __name__ == '__main__':
     # send(subject='subject', body='body', attachments=[r'D:\workflow\ImTestPy\tests\conftest.py'], )
-    send(subject='subject', body='body')
+    send(subject='subject', body='body', receiver='v-wuzhengfeng@immotors.com', receiver_name='xxx')

@@ -62,14 +62,7 @@ class BaseLogParser(ABC):
         return line
 
     def __parse_block(self, block: str) -> BaseLogRecord | None:
-        try:
-            return self._record_cls(self._structure.parseString(block))
-        except Exception as e:
-            print()
-            print()
-            print(block)
-            print()
-            return None
+        return self._record_cls(self._structure.parseString(block))
 
     def read(self, iter_obj: Iterable[str]) -> Iterable[BaseLogRecord]:
         for line in iter_obj:

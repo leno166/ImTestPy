@@ -57,12 +57,30 @@ class DmzFclParser(BaseLogParser):
 # dmz filter log & dmz filter forever log
 # ====================================================================================================================
 class DmzFilterParser(BaseLogParser):
+    def __init__(self):
+        super().__init__()
+
+        self.first_line = True
+
     @property
     def _record_cls(self) -> Type[BaseLogRecord]:
         return DmzLogRecord
 
     def _preprocess(self, line: str) -> str:
-        return line.replace('\x00', '')
+        line = line.replace('\x00', '').strip() + '\n'
+
+        if line.startswith('[dmz_filter][NORMAL]'):
+            if self.first_line:
+                self._buffer = line
+                self.first_line = False
+                return ''
+
+            completed, self._buffer = self._buffer, line
+            return completed
+
+        else:
+            self._buffer += line
+            return ''
 
     def _build_perse(self) -> pp.ParserElement:
         # 级别
@@ -91,12 +109,30 @@ class DmzFilterParser(BaseLogParser):
 # dmz recorder log & dmz recorder forever log
 # ====================================================================================================================
 class DmzRecorderParser(BaseLogParser):
+    def __init__(self):
+        super().__init__()
+
+        self.first_line = True
+
     @property
     def _record_cls(self) -> Type[BaseLogRecord]:
         return DmzLogRecord
 
     def _preprocess(self, line: str) -> str:
-        return line.replace('\x00', '')
+        line = line.replace('\x00', '').strip() + '\n'
+
+        if line.startswith('[dmz_filter][NORMAL]'):
+            if self.first_line:
+                self._buffer = line
+                self.first_line = False
+                return ''
+
+            completed, self._buffer = self._buffer, line
+            return completed
+
+        else:
+            self._buffer += line
+            return ''
 
     def _build_perse(self) -> pp.ParserElement:
         # 级别

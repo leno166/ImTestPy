@@ -12,7 +12,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from .configuration import CONFIGURATION
 
-TEST_PATH = Path('./tests')
+TEST_PATH = Path(r'D:\workflow\ImTestPy\tests')
 
 LOG_PATH = CONFIGURATION['LOGGING']['path']
 LOG_DIR_PATH = TEST_PATH / LOG_PATH
@@ -70,7 +70,7 @@ def setup_logger():
 
     # console handler - record to controller logs
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
+    console_handler.setLevel(logging.ERROR)
 
     # add handler to logger
     logger.addHandler(file_handler)
