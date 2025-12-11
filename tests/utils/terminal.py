@@ -9,7 +9,6 @@
 import threading
 import time
 from abc import ABC, abstractmethod
-from idlelib.iomenu import errors
 from typing import NoReturn
 import win32pipe
 import win32security
