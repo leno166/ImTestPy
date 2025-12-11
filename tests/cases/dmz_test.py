@@ -7,6 +7,7 @@
 @版本: Version 1.0
 """
 from tests.utils.logger import logger
+from tests.utils.terminal import Ipc, TerminalManager, ParamikoSshServer
 
 
 def test_b0bd_filter():
@@ -22,8 +23,34 @@ def test_b0bd_filter():
     sec_monitor_ok = False
 
     # ===== Step 3: 第一次监控  重启前 =====
+    logger.info(f'{"Step 3: 第一次监控 重启前":=^5}')
     try:
+        paramiko_ssh_server = ParamikoSshServer('192.168.0.179', 'custom', '654312')
+
+        terminal_manager = TerminalManager(paramiko_ssh_server, paramiko_ssh_server)
+        terminal_manager.start(no_in=True)
+
+        ipc = Ipc('terminal')
+        ipc.create_slave_pipe()
+
+        paramiko_ssh_server.input = 'tail -f -n +1 /var/log/syslog'
+
+        jump_to_command_line = False
+        while jump_to_command_line:
+            line = ipc.read
+            if line.endswith('tail -f -n +1 /var/log/syslog'):
+                jump_to_command_line = True
+
+        change_key_words = False
+        while change_key_words:
+            line = ipc.read
+            if 'NetworkManager-dispatcher.service: Succeeded' in line:
+                logger.info('key line: %s', line)
+                change_key_words = True
+
         fir_monitor_ok = True
+
+
     except Exception as e:
         logger.error('重启前第一次监控 B0BD 字段触发: %s', e)
 

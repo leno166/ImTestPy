@@ -34,6 +34,7 @@ class Ipc:
 
         self.pipe = None
         self.pipe_mode = ''
+        self.connected = False
 
         self.lock = threading.Lock()
         self.r_lock = threading.RLock()
@@ -67,27 +68,42 @@ class Ipc:
         if not self.pipe:
             raise AttributeError("Pipe not initialized. Call create_master_pipe() or create_slave_pipe() first.")
 
-        if self.pipe_mode == 'master':
+        if self.pipe_mode == 'master' and self.connected == False:
             win32pipe.ConnectNamedPipe(self.pipe, None)
+            self.connected = True
 
         with self.lock:
             win32file.WriteFile(self.pipe, msg.encode(self.ENCODING))
 
     @property
-    def read(self):
+    def read(self) -> str:
         if not self.pipe:
             raise AttributeError("Pipe not initialized. Call create_master_pipe() or create_slave_pipe() first.")
 
-        if self.pipe_mode == 'master':
+        if self.pipe_mode == 'master' and self.connected == False:
             win32pipe.ConnectNamedPipe(self.pipe, None)
+            self.connected = True
 
+        peek_data: bytes
+        peek_data, available, hr = win32pipe.PeekNamedPipe(self.pipe, self.BUFFER_SIZE)
+        logger.info('hr: %s, available: %s, peek_data: %s', hr, available, peek_data)
+
+        if not peek_data:  # 没有数据
+            return ''
+
+        idx = peek_data.find(b'\n')
+        if idx == -1:  # 还没有完整一行
+            return ''
+
+        buffer_size = idx + 1
+
+        data: bytes
         with self.r_lock:
-            result, data = win32file.ReadFile(self.pipe, self.BUFFER_SIZE)
+            result, data = win32file.ReadFile(self.pipe, buffer_size)
 
-        if data:
-            return data.decode(self.ENCODING)
+        return data.decode(self.ENCODING)
 
-        raise IOError('未读取到数据: %s, %s', result, data)
+        # raise IOError('未读取到数据: %s, %s', result, data)
 
     def close(self):
         if self.pipe:
@@ -165,17 +181,17 @@ class TerminalManager:
 
         self.ipc.create_master_pipe()
 
-    def start(self):
+    def start(self, no_in: bool = False):
         if self.running:
             return
 
         self.running = True
 
-        thread_in = threading.Thread(target=self.in_loop, daemon=True, name="InputThread")
-        thread_out = threading.Thread(target=self.out_loop, daemon=True, name="OutputThread")
-        thread_err = threading.Thread(target=self.err_loop, daemon=True, name="ErrorThread")
+        thread_func_list = [self.in_loop, self.out_loop, self.err_loop] if not no_in else [self.out_loop, self.err_loop]
 
-        self.threads: list[threading.Thread] = [thread_in, thread_out, thread_err]
+        for fn in thread_func_list:
+            thread = threading.Thread(target=fn, daemon=True)
+            self.threads.append(thread)
 
         for thread in self.threads:
             thread.start()
@@ -249,10 +265,11 @@ class ParamikoSshServer(TerminalIn, TerminalOut):
             hostname=hostname, username=username, password=password
         )
 
-        self.channel = self.client.invoke_shell(term='xterm', width=1000, height=1000)
+        self.channel = self.client.invoke_shell(term='xterm-256color', width=1000, height=1000)
+        self.channel.setblocking(0)
 
         self.out_buffer = b''
-        self.err_buffer = ''
+        self.err_buffer = b''
 
     @property
     def input(self) -> NoReturn:
@@ -263,47 +280,45 @@ class ParamikoSshServer(TerminalIn, TerminalOut):
         if not self.channel:
             raise ConnectionError("SSH连接已关闭")
 
-        if not value.endswith('\n'):
-            value += '\n'
+        match value:
+            case '^C':
+                self.channel.send('\x03'.encode('utf-8'))
+            case '^D':
+                self.channel.send('\x04'.encode('utf-8'))
+            case '^Z':
+                self.channel.send('\x1a'.encode('utf-8'))
+            case _:
+                if not value.endswith('\n'):
+                    value += '\n'
 
-        self.channel.send(value.encode('utf-8'))
-
-    def extract_line_from_buffer(self, buffer: str):
-        new_line_pos = buffer.find('\n')
-        line = buffer[:new_line_pos]
-        remaining = buffer[new_line_pos + 1:]
-        return line, remaining
-
-    def read_available_lines(self):
-        if self.channel.recv_ready():
-            self.out_buffer += self.channel.recv(4096)
+                logger.info(value)
+                self.channel.send(value.encode('utf-8'))
 
     @property
     def out(self) -> str:
         if self.out_buffer and b'\n' in self.out_buffer:
-            self.out_buffer = self.out_buffer
-
             self.out_buffer = self.out_buffer.split(b'\n')
             line = self.out_buffer[0].decode('utf-8', errors='ignore')
             self.out_buffer = self.out_buffer[1:]
             self.out_buffer = b'\n'.join(self.out_buffer)
             return line
 
-        self.read_available_lines()
+        if self.channel.recv_ready():
+            self.out_buffer += self.channel.recv(4096)
+
+        return ''
 
     @property
     def err(self) -> str:
-        if self.err_buffer:
-            line, self.err_buffer = self.extract_line_from_buffer(self.err_buffer)
-            if line:
-                return line
+        if self.err_buffer and b'\n' in self.err_buffer:
+            self.err_buffer = self.err_buffer.split(b'\n')
+            line = self.err_buffer[0].decode('utf-8', errors='ignore')
+            self.err_buffer = self.err_buffer[1:]
+            self.err_buffer = b'\n'.join(self.err_buffer)
+            return line
 
         if self.channel.recv_stderr_ready():
-            data = self.channel.recv_stderr(4096)
-            if data:
-                self.err_buffer += data.decode('utf-8', errors='ignore')
-                line, self.err_buffer = self.extract_line_from_buffer(self.err_buffer)
-                return line
+            self.err_buffer += self.channel.recv_stderr(4096)
 
         return ''
 
