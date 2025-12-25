@@ -1,0 +1,28 @@
+[dmz_fcl][NORMAL][INF][11229894480][2025-12-08 17:20:29.048569898]:mlog_file_path:/app/im/modules/dmz_fcl/resource/mlog_config.json
+[dmz_fcl][NORMAL][INF][11230531040][2025-12-08 17:20:29.049206509]:fcl: get /app/im/modules/dmz_fcl/resource/fcl_config.json config
+[dmz_fcl][NORMAL][INF][11230537036][2025-12-08 17:20:29.049212389]:fcl: config file download host cp-dataloop.ap.immotors.com, config file download action /sota/getOtaPackage, remote notify host cp-dataloop.ap.immotors.com, remote notify action /oss/file/triggerNotify, cycle collection host dmz-ota.ap.immotors.com, cycle collection action /vehicle/module/config/signal
+[dmz_fcl][NORMAL][INF][11230764120][2025-12-08 17:20:29.049439556]:Init fcl forever log done!
+[dmz_fcl][NORMAL][INF][11242665580][2025-12-08 17:20:29.061341815]:after curl easy init, will curl easy perform(baidu)...
+[dmz_fcl][NORMAL][ERR][11291552272][2025-12-08 17:20:29.110228296]:curl easy perform(baidu) fail, ret = 6
+[dmz_fcl][NORMAL][INF][11291653036][2025-12-08 17:20:29.110328593]:net time sync(baidu) failed, do not init fcl core, wait utc diff from ss
+[dmz_fcl][NORMAL][INF][15291796060][2025-12-08 17:20:33.110472610]:after curl easy init, will curl easy perform(baidu)...
+[dmz_fcl][NORMAL][INF][15454757332][2025-12-08 17:20:33.273433684]:net time sync ok, format origin date: 08 Dec 2025 09:20:44, origin date ts(sec): 1765185644, local cur sec: 15, get net utc diff ns : 1765185629000000000, write to /tmp/ccs_net_time_sync
+[dmz_fcl][NORMAL][INF][15455102552][2025-12-08 17:20:33.273778194]:fcl: get: /app/m/.version, system name: LthorU-V6.0.22-sw072rp20_7030_Pcar_IMcloudTestB_V1.30.2_41-20251205.5583.tgz, maf interface: f8d6572N-897121d9-9fc230d82a77fb07
+[dmz_fcl][NORMAL][INF][15510288120][2025-12-08 17:20:33.328964657]:create TLS, auth id 2, type vss
+[dmz_fcl][NORMAL][INF][15510948192][2025-12-08 17:20:33.329623833]:STS Request host: sts-public.immotors.com
+[dmz_fcl][NORMAL][INF][15510952604][2025-12-08 17:20:33.329627971]:Send TLS request.
+[dmz_fcl][NORMAL][ERR][15533626520][2025-12-08 17:20:33.352302796]:TLS->Connect: connect 139.224.56.94:30058 faild!, errno:111,errmsg:Connection refused
+[dmz_fcl][NORMAL][ERR][15533639036][2025-12-08 17:20:33.352314425]:S3Client Get STS FAILED, ret: OSS_STS_SIG_FAIL,retrying :0
+[dmz_fcl][NORMAL][INF][16533829608][2025-12-08 17:20:45.553554843]:STS Request host: sts-public.immotors.com
+[dmz_fcl][NORMAL][INF][16533862176][2025-12-08 17:20:45.553563287]:Send TLS request.
+[dmz_fcl][NORMAL][ERR][16573526616][2025-12-08 17:20:45.593228408]:TLS->Connect: connect 139.224.56.94:30058 faild!, errno:111,errmsg:Connection refused
+[dmz_fcl][NORMAL][ERR][16573539104][2025-12-08 17:20:45.593240158]:S3Client Get STS FAILED, ret: OSS_STS_SIG_FAIL,retrying :1
+[dmz_fcl][NORMAL][INF][17573720804][2025-12-08 17:20:46.593422926]:STS Request host: sts-public.immotors.com
+[dmz_fcl][NORMAL][INF][17573729120][2025-12-08 17:20:46.593430130]:Send TLS request.
+[dmz_fcl][NORMAL][ERR][17607447380][2025-12-08 17:20:46.627149167]:TLS->Connect: connect 139.224.56.94:30058 faild!, errno:111,errmsg:Connection refused
+[dmz_fcl][NORMAL][ERR][17607463464][2025-12-08 17:20:46.627164491]:S3Client Get STS FAILED, ret: OSS_STS_SIG_FAIL,retrying :2
+[dmz_fcl][NORMAL][ERR][18607542108][2025-12-08 17:20:47.627244824]:S3Client init fail!!
+[dmz_fcl][NORMAL][INF][18607582680][2025-12-08 17:20:47.627283740]:close vss auther
+[dmz_fcl][NORMAL][ERR][18607585652][2025-12-08 17:20:47.627286648]:There're totally 0 clients, clear auths!
+[dmz_fcl][NORMAL][ERR][18607615592][2025-12-08 17:20:47.627316602]:fcl core init failed!
+[dmz_fcl][NORMAL][ERR][18607618408][2025-12-08 17:20:47.627319416]:first init fail, wait utc diff from ss!

@@ -7,7 +7,7 @@
 @版本: Version 1.0
 """
 from tests.utils.logger import logger
-from tests.utils.terminal import Ipc, TerminalManager, ParamikoSshServer
+from src.terminal import Ipc, TerminalManager, SshServer
 
 
 def test_b0bd_filter():
@@ -25,7 +25,7 @@ def test_b0bd_filter():
     # ===== Step 3: 第一次监控  重启前 =====
     logger.info(f'{"Step 3: 第一次监控 重启前":=^5}')
     try:
-        paramiko_ssh_server = ParamikoSshServer('192.168.0.179', 'custom', '654312')
+        paramiko_ssh_server = SshServer('192.168.0.179', 'custom', '654312')
 
         terminal_manager = TerminalManager(paramiko_ssh_server, paramiko_ssh_server)
         terminal_manager.start(no_in=True)

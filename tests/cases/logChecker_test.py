@@ -8,7 +8,7 @@
 """
 import pytest
 
-from tests.utils.logChecker import DmzFclParser, DmzFilterParser, DmzRecorderParser
+from src.log.logChecker import DmzFclParser, DmzFilterParser, DmzRecorderParser
 
 
 @pytest.mark.api

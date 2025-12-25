@@ -1,0 +1,327 @@
+[dmz_recorder][NORMAL][INF][11429318092][2025-12-08 17:20:29.247993500]:[entry_patch_pool] try to malloc 53682176 byte, entry_size 8192
+[dmz_recorder][NORMAL][INF][11429358020][2025-12-08 17:20:29.248033380]:[entry_pool] try to malloc 1019215872 byte, entry_size 1048576
+[dmz_recorder][NORMAL][INF][11395384404][2025-12-08 17:20:29.214059769]:[ResourceManager] init fdr log config done
+[dmz_recorder][NORMAL][INF][11395386452][2025-12-08 17:20:29.214061870]:[ResourceManager] Build time: 2025-12-05 02:38:19
+[dmz_recorder][NORMAL][INF][11395678080][2025-12-08 17:20:29.214353611]:[ResourceManager] load config: /app/im/modules/dmz_recorder/resource/fdr_configLC6.json
+[dmz_recorder][NORMAL][INF][11399246736][2025-12-08 17:20:29.217923232]:[access_file] no such file: 
+[dmz_recorder][NORMAL][INF][11422435192][2025-12-08 17:20:29.241110722]:[ConfigService] mem_pool_mb = 1024 MB
+[dmz_recorder][NORMAL][INF][11422438060][2025-12-08 17:20:29.241113491]:[ConfigService] mem_patch_weight = 5.0%
+[dmz_recorder][NORMAL][INF][11422441968][2025-12-08 17:20:29.241117333]:[ConfigService] min_cache_sec = 70 sec
+[dmz_recorder][NORMAL][INF][11422443692][2025-12-08 17:20:29.241119148]:[ConfigService] max_cache_sec = 80 sec
+[dmz_recorder][NORMAL][INF][11422445452][2025-12-08 17:20:29.241120815]:[ConfigService] landmark_cache_sec = 300 sec
+[dmz_recorder][NORMAL][INF][11422446992][2025-12-08 17:20:29.241122352]:[ConfigService] dump_root_dir = /opt/m0/dmz/wsbag2
+[dmz_recorder][NORMAL][INF][11422448692][2025-12-08 17:20:29.241124046]:[ConfigService] cfdi_root_dir = /opt/m0/dmz/wsbag2/..
+[dmz_recorder][NORMAL][INF][11422456908][2025-12-08 17:20:29.241132269]:[ConfigService] apa_persistent_data_dir = 
+[dmz_recorder][NORMAL][INF][11422458432][2025-12-08 17:20:29.241133796]:[ConfigService] is_support_apa_persistent = false
+[dmz_recorder][NORMAL][INF][11422460080][2025-12-08 17:20:29.241135426]:[ConfigService] expand_storage_dir = 
+[dmz_recorder][NORMAL][INF][11422461820][2025-12-08 17:20:29.241137176]:[ConfigService] is_support_expand_storage = false
+[dmz_recorder][NORMAL][INF][11422463452][2025-12-08 17:20:29.241138806]:[ConfigService] custom_log_dir = clog
+[dmz_recorder][NORMAL][INF][11422465264][2025-12-08 17:20:29.241140620]:[ConfigService] high_pri_max_num = 10
+[dmz_recorder][NORMAL][INF][11422466880][2025-12-08 17:20:29.241142232]:[ConfigService] high_pri_risk_max_num = 5
+[dmz_recorder][NORMAL][INF][11422468564][2025-12-08 17:20:29.241143917]:[ConfigService] shadow_mode_pri_max_num = 5
+[dmz_recorder][NORMAL][INF][11422472520][2025-12-08 17:20:29.241147880]:[ConfigService] allow_expand_storage_num = 140
+[dmz_recorder][NORMAL][INF][11422474152][2025-12-08 17:20:29.241149509]:[ConfigService] disk_clear_threshold_mb = 1200
+[dmz_recorder][NORMAL][INF][11422475792][2025-12-08 17:20:29.241151157]:[ConfigService] allow_disk_size_mb = 15360
+[dmz_recorder][NORMAL][INF][11422477420][2025-12-08 17:20:29.241152778]:[ConfigService] apa_allow_disk_size_mb = 5120
+[dmz_recorder][NORMAL][INF][11422478892][2025-12-08 17:20:29.241154250]:[ConfigService] high_water_line = 0.632
+[dmz_recorder][NORMAL][INF][11422480976][2025-12-08 17:20:29.241156333]:[ConfigService] full_water_line = 0.908
+[dmz_recorder][NORMAL][INF][11422482552][2025-12-08 17:20:29.241157917]:[ConfigService] water_line_wavelet = 0.138
+[dmz_recorder][NORMAL][INF][11422484448][2025-12-08 17:20:29.241159806]:[ConfigService] in_auto_write_period_ms = 200
+[dmz_recorder][NORMAL][INF][11422488380][2025-12-08 17:20:29.241163741]:[ConfigService] non_auto_write_period_ms = 50
+[dmz_recorder][NORMAL][INF][11422489980][2025-12-08 17:20:29.241165343]:[ConfigService] log_split_period_ms_ = 50
+[dmz_recorder][NORMAL][INF][11422823064][2025-12-08 17:20:29.241499278]:[ConfigService] able to write bag in auto: Yes
+[dmz_recorder][NORMAL][INF][11422826648][2025-12-08 17:20:29.241502065]:[ConfigService] common config file: /app/im/modules/dmz_recorder/resource/common_config.json
+[dmz_recorder][NORMAL][INF][11422828496][2025-12-08 17:20:29.241503861]:[ConfigService] recording_landmark_event = false
+[dmz_recorder][NORMAL][INF][11422830148][2025-12-08 17:20:29.241505509]:[ConfigService] init done
+[dmz_recorder][NORMAL][INF][11423159296][2025-12-08 17:20:29.241834852]:[access_file] no such file: /etc/version/idc_version.txt
+[dmz_recorder][NORMAL][INF][11423162988][2025-12-08 17:20:29.241838361]:[access_file] no such file: /etc/version/idc_version.txt
+[dmz_recorder][NORMAL][INF][11423582036][2025-12-08 17:20:29.242257519]:[entry_patch_pool] init done
+[dmz_recorder][NORMAL][INF][11423671808][2025-12-08 17:20:29.242347222]:[entry_pool] init done
+[dmz_recorder][NORMAL][INF][11423745380][2025-12-08 17:20:29.242420815]:[ComplianceService] geofence_switch_on = true
+[dmz_recorder][NORMAL][INF][11423747364][2025-12-08 17:20:29.242422722]:[ComplianceService] gnss_cache_us = 60000000
+[dmz_recorder][NORMAL][INF][11424199992][2025-12-08 17:20:29.242875509]:[ComplianceService] crypto info:
+[dmz_recorder][NORMAL][INF][11424202192][2025-12-08 17:20:29.242877620]:[ComplianceService]   switch_on = false
+[dmz_recorder][NORMAL][INF][11424203808][2025-12-08 17:20:29.242879167]:[ComplianceService]   block_size = 102400
+[dmz_recorder][NORMAL][INF][11424205492][2025-12-08 17:20:29.242880861]:[ComplianceService]   block_sleep_us = 10000
+[dmz_recorder][NORMAL][INF][11424440924][2025-12-08 17:20:29.243116482]:[ComplianceService]   cert = 
+[dmz_recorder][NORMAL][INF][11424442704][2025-12-08 17:20:29.243135037]:[ComplianceService]   mode = CBC
+[dmz_recorder][NORMAL][INF][11424461324][2025-12-08 17:20:29.243136722]:[ComplianceService]   padding = PKCS7
+[dmz_recorder][NORMAL][INF][11424466808][2025-12-08 17:20:29.243142167]:[ComplianceService]   encoding = NoCode
+[dmz_recorder][NORMAL][ERR][11425107204][2025-12-08 17:20:29.243782852]:[ComplianceService] no such cert file: 
+[dmz_recorder][NORMAL][ERR][11425110252][2025-12-08 17:20:29.243785639]:[AesCbcEvp] calc key factor for save meta fail !!
+[dmz_recorder][NORMAL][WRN][11425112532][2025-12-08 17:20:29.243787898]:[ComplianceService] encrypt init failed
+[dmz_recorder][NORMAL][INF][11425114036][2025-12-08 17:20:29.243789454]:[ComplianceService] init done
+[dmz_recorder][NORMAL][WRN][11427313648][2025-12-08 17:20:29.245989287]:[MfrRecvTask] Not found 'maf_topic_groups' field!!
+[dmz_recorder][NORMAL][INF][11427316352][2025-12-08 17:20:29.245991778]:[MfrRecvTask] maf total topics number 32
+[dmz_recorder][NORMAL][INF][11428002236][2025-12-08 17:20:29.246677602]:[MfrRecvTask] subscribe above 0 landmark topics
+[dmz_recorder][NORMAL][INF][11428217392][2025-12-08 17:20:29.246892852]:[MfrRecvTask] h264: /sensor/camera_front_wide/video <--> 4, queue size 20
+[dmz_recorder][NORMAL][INF][11428389136][2025-12-08 17:20:29.247064509]:[MfrRecvTask] h264: /sensor/camera_front_far/video <--> 5, queue size 20
+[dmz_recorder][NORMAL][INF][11428390752][2025-12-08 17:20:29.247066111]:[MfrRecvTask] subscribe above 2 h264 topics
+[dmz_recorder][NORMAL][INF][11428392292][2025-12-08 17:20:29.247067648]:[MfrRecvTask] subscribe above 0 lidar topics
+[dmz_recorder][NORMAL][INF][11428540392][2025-12-08 17:20:29.247216315]:[MfrRecvTask] sens: /sensor/gnss_rtk <--> 0, queue size 20
+[dmz_recorder][NORMAL][INF][11428634492][2025-12-08 17:20:29.247309861]:[MfrRecvTask] sens: /mla/egopose <--> 1, queue size 50
+[dmz_recorder][NORMAL][INF][11428636496][2025-12-08 17:20:29.247311843]:[MfrRecvTask] subscribe above 2 sens topics
+[dmz_recorder][NORMAL][INF][11428740064][2025-12-08 17:20:29.247415472]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/object_parking_environment <--> 0, queue size 20
+[dmz_recorder][NORMAL][INF][11428894524][2025-12-08 17:20:29.247569898]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/ground_line <--> 1, queue size 20
+[dmz_recorder][NORMAL][INF][11429080660][2025-12-08 17:20:29.247756028]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/ground_line_uss <--> 2, queue size 20
+[dmz_recorder][NORMAL][INF][11429207332][2025-12-08 17:20:29.247882704]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/dd_parking_fusion_result <--> 3, queue size 20
+[dmz_recorder][NORMAL][INF][11429442892][2025-12-08 17:20:29.248118259]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/parking_slot <--> 4, queue size 20
+[dmz_recorder][NORMAL][INF][11429633992][2025-12-08 17:20:29.248309352]:[MfrRecvTask] maf_multiple2_group: /sensor/ultrasonic/obstacle <--> 5, queue size 20
+[dmz_recorder][NORMAL][INF][11429751732][2025-12-08 17:20:29.248427093]:[MfrRecvTask] maf_multiple2_group: /msd/function_module_status <--> 6, queue size 20
+[dmz_recorder][NORMAL][INF][11429938608][2025-12-08 17:20:29.248613982]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/object <--> 7, queue size 20
+[dmz_recorder][NORMAL][INF][11430431008][2025-12-08 17:20:29.249106380]:[MfrRecvTask] maf_multiple2_group: /perception/fusion/distance_uss <--> 8, queue size 20
+[dmz_recorder][NORMAL][INF][11430583680][2025-12-08 17:20:29.249259139]:[MfrRecvTask] maf_multiple2_group: /lpnc/msd/sbp_request <--> 9, queue size 20
+[dmz_recorder][NORMAL][INF][11430677920][2025-12-08 17:20:29.249353287]:[MfrRecvTask] maf_multiple2_group: /lpnc/msd/sbp_result <--> 10, queue size 20
+[dmz_recorder][NORMAL][INF][11430831924][2025-12-08 17:20:29.249507278]:[MfrRecvTask] maf_multiple2_group: /lpnc/control/function_module_status <--> 11, queue size 20
+[dmz_recorder][NORMAL][INF][11430999220][2025-12-08 17:20:29.249674593]:[MfrRecvTask] maf_multiple2_group: /lpnc/node_status/controller <--> 12, queue size 20
+[dmz_recorder][NORMAL][INF][11431099168][2025-12-08 17:20:29.249774537]:[MfrRecvTask] maf_multiple2_group: /epa_line/info <--> 13, queue size 20
+[dmz_recorder][NORMAL][INF][11431282596][2025-12-08 17:20:29.249958028]:[MfrRecvTask] maf_multiple2_group: /lpnc/node_status/planning <--> 14, queue size 20
+[dmz_recorder][NORMAL][INF][11431376664][2025-12-08 17:20:29.250052019]:[MfrRecvTask] maf_multiple2_group: /lpnc/planning/plan <--> 15, queue size 20
+[dmz_recorder][NORMAL][INF][11431578264][2025-12-08 17:20:29.250253657]:[MfrRecvTask] maf_multiple2_group: /lpnc/system_manager/planning/control_cmd_request <--> 16, queue size 20
+[dmz_recorder][NORMAL][INF][11431683492][2025-12-08 17:20:29.250358972]:[MfrRecvTask] maf_multiple2_group: /lpnc/system_manager/planning/control_cmd_response <--> 17, queue size 20
+[dmz_recorder][NORMAL][INF][11431893852][2025-12-08 17:20:29.250569213]:[MfrRecvTask] maf_multiple2_group: /lpnc/system_manager/planning/request <--> 18, queue size 20
+[dmz_recorder][NORMAL][INF][11432322532][2025-12-08 17:20:29.250997944]:[MfrRecvTask] maf_multiple2_group: /lpnc/system_manager/planning/response <--> 19, queue size 20
+[dmz_recorder][NORMAL][INF][11432461072][2025-12-08 17:20:29.251136435]:[MfrRecvTask] maf_multiple2_group: /lpnc/planning/info <--> 20, queue size 20
+[dmz_recorder][NORMAL][INF][11432608196][2025-12-08 17:20:29.251283556]:[MfrRecvTask] maf_multiple2_group: /lpnc/control/mpc_traj <--> 21, queue size 20
+[dmz_recorder][NORMAL][INF][11432751060][2025-12-08 17:20:29.251426426]:[MfrRecvTask] maf_multiple2_group: /lpnc/control_command <--> 22, queue size 20
+[dmz_recorder][NORMAL][INF][11432853792][2025-12-08 17:20:29.251529167]:[MfrRecvTask] maf_multiple2_group: /lpnc/worldmodel/parking_slot_info <--> 23, queue size 20
+[dmz_recorder][NORMAL][INF][11433200820][2025-12-08 17:20:29.251876259]:[MfrRecvTask] maf_multiple2_group: /lpnc/epa/parking_slot_info_cache <--> 24, queue size 20
+[dmz_recorder][NORMAL][INF][11433545340][2025-12-08 17:20:29.252220704]:[MfrRecvTask] maf_multiple2_group: /lpnc/function_module_control <--> 25, queue size 20
+[dmz_recorder][NORMAL][INF][11433548208][2025-12-08 17:20:29.252223574]:[MfrRecvTask] subscribe above 26 maf groups maf_multiple2_group topics
+[dmz_recorder][NORMAL][INF][11433812312][2025-12-08 17:20:29.252487732]:[MfrRecvTask] mff_main_group: /navigation/info <--> 0, queue size 20
+[dmz_recorder][NORMAL][INF][11434202008][2025-12-08 17:20:29.252877380]:[MfrRecvTask] mff_main_group: /system_manager/info/parking <--> 1, queue size 20
+[dmz_recorder][NORMAL][INF][11434204524][2025-12-08 17:20:29.252879889]:[MfrRecvTask] subscribe above 2 maf groups mff_main_group topics
+[dmz_recorder][NORMAL][INF][11434403092][2025-12-08 17:20:29.253078463]:[MfrRecvTask] vehicle_service_group: /vehicle/chassis_report <--> 0, queue size 50
+[dmz_recorder][NORMAL][INF][11434717492][2025-12-08 17:20:29.253392861]:[MfrRecvTask] vehicle_service_group: /vehicle/wheel_report <--> 1, queue size 50
+[dmz_recorder][NORMAL][INF][11435147256][2025-12-08 17:20:29.253822611]:[MfrRecvTask] vehicle_service_group: /vehicle/body_report <--> 2, queue size 20
+[dmz_recorder][NORMAL][INF][11436197952][2025-12-08 17:20:29.254873463]:[MfrRecvTask] vehicle_service_group: /vehicle_service/info <--> 3, queue size 20
+[dmz_recorder][NORMAL][INF][11436200508][2025-12-08 17:20:29.254875870]:[MfrRecvTask] subscribe above 4 maf groups vehicle_service_group topics
+[dmz_recorder][NORMAL][INF][11436205536][2025-12-08 17:20:29.254880898]:[MfrRecvTask] subscribe above 0 pnp silent topics
+[dmz_recorder][NORMAL][INF][11436697980][2025-12-08 17:20:29.255373463]:[MfrRecvTask] subscribe above 0 privcan topics
+[dmz_recorder][NORMAL][INF][11436699740][2025-12-08 17:20:29.255375111]:[MfrRecvTask] init done
+[dmz_recorder][NORMAL][INF][11436704192][2025-12-08 17:20:29.255379565]:[ResourceManager] create task 'maf_recv_task' success
+[dmz_recorder][NORMAL][INF][11438940864][2025-12-08 17:20:29.257616241]:[MainDaemonTask] init done
+[dmz_recorder][NORMAL][INF][11438943332][2025-12-08 17:20:29.257618695]:[ResourceManager] create task 'main_daemon_task' success
+[dmz_recorder][NORMAL][INF][11439266092][2025-12-08 17:20:29.257941519]:[ResourceManager] create task 'pre_dump_task' success
+[dmz_recorder][NORMAL][WRN][11440726632][2025-12-08 17:20:29.259402176]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/high_pri
+[dmz_recorder][NORMAL][WRN][11440733664][2025-12-08 17:20:29.259409028]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/high_pri_risk
+[dmz_recorder][NORMAL][WRN][11440738976][2025-12-08 17:20:29.259414380]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/shadow_mode
+[dmz_recorder][NORMAL][WRN][11440747904][2025-12-08 17:20:29.259423269]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/mid_pri/critical_failure
+[dmz_recorder][NORMAL][WRN][11440756052][2025-12-08 17:20:29.259431417]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/mid_pri/manual_trigger
+[dmz_recorder][NORMAL][WRN][11440760148][2025-12-08 17:20:29.259435509]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/mid_pri/other
+[dmz_recorder][NORMAL][WRN][11440974972][2025-12-08 17:20:29.259650426]:[DiskService] open dir file!! /opt/m0/dmz/wsbag2/mid_pri/algorithm_iteration
+[dmz_recorder][NORMAL][INF][11441870832][2025-12-08 17:20:29.260546250]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765161526496797_10/.already_req
+[dmz_recorder][NORMAL][INF][11441877648][2025-12-08 17:20:29.260553074]:[DiskService] <CFDI-1000000>version_info_event_1765161526496797: push into toupload list
+[dmz_recorder][NORMAL][INF][11442392920][2025-12-08 17:20:29.261068435]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765161526496958_10/.already_req
+[dmz_recorder][NORMAL][INF][11442406920][2025-12-08 17:20:29.261082343]:[DiskService] <CFDI-1000001>fota_calib_update_event_1765161526496958: push into toupload list
+[dmz_recorder][NORMAL][INF][11442899492][2025-12-08 17:20:29.261574982]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765161526497085_10/.already_req
+[dmz_recorder][NORMAL][INF][11442902280][2025-12-08 17:20:29.261577694]:[DiskService] <CFDI-1000002>vehicle_config_event_1765161526497085: push into toupload list
+[dmz_recorder][NORMAL][INF][11444997848][2025-12-08 17:20:29.263673528]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765161526497153_10/.already_req
+[dmz_recorder][NORMAL][INF][11445002680][2025-12-08 17:20:29.263678046]:[DiskService] <CFDI-1000003>switch_config_event_1765161526497153: push into toupload list
+[dmz_recorder][NORMAL][INF][11445577604][2025-12-08 17:20:29.264253083]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765163253075573_10/.already_req
+[dmz_recorder][NORMAL][INF][11445582132][2025-12-08 17:20:29.264257639]:[DiskService] <CFDI-1000004>b0bd_event_1765163253075573: push into toupload list
+[dmz_recorder][NORMAL][INF][11446065620][2025-12-08 17:20:29.264741074]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765164164619386_10/.already_req
+[dmz_recorder][NORMAL][INF][11446068304][2025-12-08 17:20:29.264743722]:[DiskService] <CFDI-1000005>b0bd_event_1765164164619386: push into toupload list
+[dmz_recorder][NORMAL][INF][11446794004][2025-12-08 17:20:29.265469500]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765164376497784_10/.already_req
+[dmz_recorder][NORMAL][INF][11446796924][2025-12-08 17:20:29.265513000]:[DiskService] <CFDI-1000006>b0bd_event_1765164376497784: push into toupload list
+[dmz_recorder][NORMAL][INF][11447301776][2025-12-08 17:20:29.265977306]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765165239903514_10/.already_req
+[dmz_recorder][NORMAL][INF][11447304304][2025-12-08 17:20:29.265979667]:[DiskService] <CFDI-1000007>b0bd_event_1765165239903514: push into toupload list
+[dmz_recorder][NORMAL][INF][11447997480][2025-12-08 17:20:29.266672944]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765170553262841_10/.already_req
+[dmz_recorder][NORMAL][INF][11448000432][2025-12-08 17:20:29.266675852]:[DiskService] <CFDI-1000008>b0bd_event_1765170553262841: push into toupload list
+[dmz_recorder][NORMAL][INF][11448419592][2025-12-08 17:20:29.267095065]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765182984696626_10/.already_req
+[dmz_recorder][NORMAL][INF][11448422292][2025-12-08 17:20:29.267097722]:[DiskService] <CFDI-1000009>b0bd_event_1765182984696626: push into toupload list
+[dmz_recorder][NORMAL][INF][11449061512][2025-12-08 17:20:29.267736972]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185192670420_10/.already_req
+[dmz_recorder][NORMAL][INF][11449064624][2025-12-08 17:20:29.267740046]:[DiskService] <CFDI-1000010>b0bd_event_1765185192670420: push into toupload list
+[dmz_recorder][NORMAL][INF][11449440520][2025-12-08 17:20:29.268116120]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185192772129_10/.already_req
+[dmz_recorder][NORMAL][INF][11449479776][2025-12-08 17:20:29.268155259]:[DiskService] <CFDI-1000011>b0bd_event_1765185192772129: push into toupload list
+[dmz_recorder][NORMAL][INF][11449569992][2025-12-08 17:20:29.268245565]:[ResourceManager] create task 'bag_dump_task' success
+[dmz_recorder][NORMAL][INF][11449575936][2025-12-08 17:20:29.268251482]:[ResourceManager] init fdr task done
+[dmz_recorder][NORMAL][INF][11450030576][2025-12-08 17:20:29.268705954]:[ResourceManager] init done
+[dmz_recorder][NORMAL][INF][11551375220][2025-12-08 17:20:29.370050593]:[IdlDict] add topic into mfbag Dict  /msd/function_module_status
+[dmz_recorder][NORMAL][INF][11552335872][2025-12-08 17:20:29.371011324]:[IdlDict] add topic into mfbag Dict  /vehicle/chassis_report
+[dmz_recorder][NORMAL][INF][11553121480][2025-12-08 17:20:29.371796907]:[IdlDict] add topic into mfbag Dict  /vehicle/wheel_report
+[dmz_recorder][NORMAL][INF][11553420768][2025-12-08 17:20:29.372096194]:[IdlDict] add topic into mfbag Dict  /vehicle/body_report
+[dmz_recorder][NORMAL][INF][11553561264][2025-12-08 17:20:29.372236630]:[IdlDict] add topic into mfbag Dict  /vehicle_service/info
+[dmz_recorder][NORMAL][INF][11611099064][2025-12-08 17:20:29.429775389]:[entry_pool] malloc 1019215872 byte success [entry_num = 972]
+[dmz_recorder][NORMAL][INF][11833410736][2025-12-08 17:20:29.652145389]:[IdlDict] add topic into mfbag Dict  /system_manager/info/parking
+[dmz_recorder][NORMAL][INF][11900565952][2025-12-08 17:20:29.719241944]:[entry_patch_pool] malloc 53682176 byte success [entry_num = 6553]
+[dmz_recorder][NORMAL][WRN][12586888404][2025-12-08 17:20:30.405564018]:[ConfigService]sys_info_event not found in whitelist
+[dmz_recorder][NORMAL][ERR][12586897796][2025-12-08 17:20:30.405573176]:<CFDI-1>Discard sys_info_event: do not recognized
+[dmz_recorder][NORMAL][INF][14450934656][2025-12-08 17:20:32.269610638]:[ParameterService] Set anonymous_id: LSJWR4099SS992862
+[dmz_recorder][NORMAL][INF][15289704060][2025-12-08 17:20:33.108380027]:[ConfigService] dump dir /opt/m0/dmz/wsbag2/mid_pri/system_exception
+[dmz_recorder][NORMAL][INF][15289731192][2025-12-08 17:20:33.108406620]:[PreDumpTask] <CFDI-2>receive filter event dump: b0bd_event, cfdi-mid-pri [seq 2] [0x0] [0x0] [-5, 5] [need maf 0] [need rte 0] [need pnp silent 0] [uuid 2d4736aa9a059a39723e6c047ddaedef] [detail {"bj02_lat":"-1.0","bj02_lon":"-1.0","event_statistics_name":["b0bd_event"],"fdi":{"origin_name":"b0bd_filter"},"filter_version":"20251121000000","mlog_list":[],"need_maf":0,"need_rte":0,"need_sens":0,"uuid":"2d4736aa9a059a39723e6c047ddaedef"}]
+[dmz_recorder][NORMAL][ERR][23320608788][2025-12-08 17:20:52.340310443]:[PreDumpTask] btype 21, Not found valid data. -2
+[dmz_recorder][NORMAL][ERR][23320666592][2025-12-08 17:20:52.340367610]:[PreDumpTask] btype 20, Not found valid data. -2
+[dmz_recorder][NORMAL][INF][23320671684][2025-12-08 17:20:52.340372684]:[ComplianceService] gnss cache empty
+[dmz_recorder][NORMAL][ERR][23320673816][2025-12-08 17:20:52.340374823]:[PreDumpTask] b0bd_event: no data found
+[dmz_recorder][NORMAL][INF][23320686152][2025-12-08 17:20:52.340388378]:<CFDI-2>b0bd_event_1765185628108422: push into ready list
+[dmz_recorder][NORMAL][INF][23475919600][2025-12-08 17:20:52.495621230]:[BagDumpTask] <CFDI-2>b0bd_event_1765185628108422: start writing data, dump dir is /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185628108422_10
+[dmz_recorder][NORMAL][INF][23482207956][2025-12-08 17:20:52.501908990]:[BagService] not find gnss point, begin_stamp: 10289615, end_stamp: 20289615
+[dmz_recorder][NORMAL][INF][23501910032][2025-12-08 17:20:52.521611712]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185628108422_10/help/ecc_global_config.json
+[dmz_recorder][NORMAL][ERR][23501916276][2025-12-08 17:20:52.521617341]:[copy_file] copy fail: cp -rf  /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185628108422_10/help/ecc_global_config.json, 1
+[dmz_recorder][NORMAL][INF][23516043148][2025-12-08 17:20:52.535746388]:[access_file] no such file: /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185628108422_10/help/sea_version.json
+[dmz_recorder][NORMAL][ERR][23516070400][2025-12-08 17:20:52.535771397]:[copy_file] copy fail: cp -rf  /opt/m0/dmz/wsbag2/mid_pri/system_exception/1765185628108422_10/help/sea_version.json, 1
+[dmz_recorder][NORMAL][INF][23526097616][2025-12-08 17:20:52.545799943]:[BagDumpTask] <CFDI-2>b0bd_event_1765185628108422: bag_name 1765185628108422_10
+[dmz_recorder][NORMAL][INF][23526106660][2025-12-08 17:20:52.545808212]:[BagDumpTask] <CFDI-2>b0bd_event_1765185628108422: processing the task completely, dump success
+[dmz_recorder][NORMAL][INF][27451759344][2025-12-08 17:20:56.471461026]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][27452529144][2025-12-08 17:20:56.472230341]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 0][missing always: 4, 5, ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 39570][1: 39570][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 111334][0: 95436][1: 6364][2: 2426][3: 7107][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 235][6: 235][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][27452533620][2025-12-08 17:20:56.472234692]:[ParameterService] total message rate(Bytes/s) 151139, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][27452538832][2025-12-08 17:20:56.472239896]:[ParameterService] memory usage = 0.3%, remain entry = 969MB, remain patch = 51MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][27538423148][2025-12-08 17:20:56.558124804]:[IdlDict] add topic into mfbag Dict  /sensor/camera_front_far/video
+[dmz_recorder][NORMAL][INF][27553721572][2025-12-08 17:20:56.573422998]:[IdlDict] add topic into mfbag Dict  /sensor/camera_front_wide/video
+[dmz_recorder][NORMAL][INF][42452648472][2025-12-08 17:21:11.472351125]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][42452673528][2025-12-08 17:21:11.472374551]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2574767][4: 1300483][5: 1274284][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37816][1: 37816][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100626][0: 86209][1: 5776][2: 2205][3: 6434][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 225][6: 225][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][42452675272][2025-12-08 17:21:11.472376449]:[ParameterService] total message rate(Bytes/s) 2713434, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][42452679056][2025-12-08 17:21:11.472380060]:[ParameterService] memory usage = 0.9%, remain entry = 963MB, remain patch = 51MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][57453487396][2025-12-08 17:21:26.473189076]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][57453513680][2025-12-08 17:21:26.473214761]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2603322][4: 1291853][5: 1311468][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37817][1: 37817][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100621][0: 86172][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][57453515884][2025-12-08 17:21:26.473216881]:[ParameterService] total message rate(Bytes/s) 2741988, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][57453519668][2025-12-08 17:21:26.473220668]:[ParameterService] memory usage = 0.9%, remain entry = 963MB, remain patch = 51MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][72454456648][2025-12-08 17:21:41.474158471]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][72454480704][2025-12-08 17:21:41.474181730]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2601522][4: 1305425][5: 1296097][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37818][1: 37818][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100606][0: 86157][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][72454482724][2025-12-08 17:21:41.474183776]:[ParameterService] total message rate(Bytes/s) 2740175, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][72454486072][2025-12-08 17:21:41.474187063]:[ParameterService] memory usage = 0.9%, remain entry = 963MB, remain patch = 51MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][87457883288][2025-12-08 17:21:56.477584968]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][87457910028][2025-12-08 17:21:56.477611088]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2600792][4: 1284054][5: 1316737][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37814][1: 37814][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100598][0: 86151][1: 5798][2: 2209][3: 6438][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][87457912504][2025-12-08 17:21:56.477613699]:[ParameterService] total message rate(Bytes/s) 2739432, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][87457928404][2025-12-08 17:21:56.477629477]:[ParameterService] memory usage = 3.1%, remain entry = 942MB, remain patch = 51MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][102458830056][2025-12-08 17:22:11.478531826]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][102458855484][2025-12-08 17:22:11.478556502]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2598452][4: 1301740][5: 1296712][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37817][1: 37817][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100632][0: 86183][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][102458857604][2025-12-08 17:22:11.478558613]:[ParameterService] total message rate(Bytes/s) 2737130, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][102458860900][2025-12-08 17:22:11.478561909]:[ParameterService] memory usage = 7.3%, remain entry = 901MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][117459803040][2025-12-08 17:22:26.479504647]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][117459829236][2025-12-08 17:22:26.479530240]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2590656][4: 1294444][5: 1296211][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37820][1: 37820][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100606][0: 86157][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][117459837468][2025-12-08 17:22:26.479538481]:[ParameterService] total message rate(Bytes/s) 2729310, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][117459840996][2025-12-08 17:22:26.479541999]:[ParameterService] memory usage = 11.1%, remain entry = 864MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][132460708436][2025-12-08 17:22:41.480410459]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][132460735972][2025-12-08 17:22:41.480436987]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2593234][4: 1299914][5: 1293320][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37818][1: 37818][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100608][0: 86159][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][132460737916][2025-12-08 17:22:41.480438922]:[ParameterService] total message rate(Bytes/s) 2731889, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][132460742348][2025-12-08 17:22:41.480443524]:[ParameterService] memory usage = 15.0%, remain entry = 826MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][147461817888][2025-12-08 17:22:56.481520484]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][147461847720][2025-12-08 17:22:56.481548753]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2602064][4: 1296208][5: 1305855][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37818][1: 37818][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100609][0: 86160][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][147461856688][2025-12-08 17:22:56.481557716]:[ParameterService] total message rate(Bytes/s) 2740719, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][147461860608][2025-12-08 17:22:56.481561632]:[ParameterService] memory usage = 19.0%, remain entry = 787MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][162462623588][2025-12-08 17:23:11.482325333]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][162462649472][2025-12-08 17:23:11.482350685]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2598164][4: 1306050][5: 1292113][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37819][1: 37819][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100596][0: 86147][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][162462651804][2025-12-08 17:23:11.482352815]:[ParameterService] total message rate(Bytes/s) 2736807, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][162462655404][2025-12-08 17:23:11.482356407]:[ParameterService] memory usage = 22.5%, remain entry = 753MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][177463434980][2025-12-08 17:23:26.483136719]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][177463460912][2025-12-08 17:23:26.483161988]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2594408][4: 1298182][5: 1296226][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37818][1: 37818][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100741][0: 86285][1: 5807][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][177463482908][2025-12-08 17:23:26.483183923]:[ParameterService] total message rate(Bytes/s) 2733196, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][177463486868][2025-12-08 17:23:26.483187876]:[ParameterService] memory usage = 22.9%, remain entry = 749MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][192464405080][2025-12-08 17:23:41.484106661]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][192464430396][2025-12-08 17:23:41.484131438]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2600902][4: 1296289][5: 1304612][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37820][1: 37820][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100476][0: 86034][1: 5791][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][192464432748][2025-12-08 17:23:41.484133809]:[ParameterService] total message rate(Bytes/s) 2739426, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][192464436476][2025-12-08 17:23:41.484137494]:[ParameterService] memory usage = 22.2%, remain entry = 756MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][207465258408][2025-12-08 17:23:56.484960380]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][207465285692][2025-12-08 17:23:56.484986722]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2586962][4: 1293880][5: 1293082][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37818][1: 37818][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100614][0: 86165][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][207465297764][2025-12-08 17:23:56.484998778]:[ParameterService] total message rate(Bytes/s) 2725623, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][207465301676][2025-12-08 17:23:56.485002676]:[ParameterService] memory usage = 22.5%, remain entry = 753MB, remain patch = 50MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][222466227228][2025-12-08 17:24:11.485929090]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][222466251716][2025-12-08 17:24:11.485952747]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2593883][4: 1300799][5: 1293083][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37822][1: 37822][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100723][0: 86266][1: 5807][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][222466253628][2025-12-08 17:24:11.485954821]:[ParameterService] total message rate(Bytes/s) 2732656, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][222466257276][2025-12-08 17:24:11.485958284]:[ParameterService] memory usage = 22.4%, remain entry = 754MB, remain patch = 49MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][237467129896][2025-12-08 17:24:26.486831661]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][237467155368][2025-12-08 17:24:26.486856439]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2594873][4: 1296279][5: 1298594][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37830][1: 37830][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100608][0: 86159][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][237467168856][2025-12-08 17:24:26.486869865]:[ParameterService] total message rate(Bytes/s) 2733540, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][237467172328][2025-12-08 17:24:26.486873328]:[ParameterService] memory usage = 22.3%, remain entry = 755MB, remain patch = 49MB, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][252468095320][2025-12-08 17:24:41.487796880]:[ParameterService] --- bandwidth split line ---
+[dmz_recorder][NORMAL][INF][252468118992][2025-12-08 17:24:41.487820056]:[ParameterService] 
+[bandwidth] h264 msg rate(Bytes/s)[2]: [all: 2598024][4: 1294479][5: 1303545][missing always: ]
+[bandwidth] sens msg rate(Bytes/s)[2]: [all: 0][missing always: 0, 1, ]
+[bandwidth] mff_main_group msg rate(Bytes/s)[2]: [all: 37828][1: 37828][missing always: 0, ]
+[bandwidth] vehicle_service_group msg rate(Bytes/s)[4]: [all: 100628][0: 86179][1: 5799][2: 2209][3: 6439][missing always: ]
+[bandwidth] maf_multiple2_group msg rate(Bytes/s)[26]: [all: 229][6: 229][missing always: 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, ]
+
+[dmz_recorder][NORMAL][INF][252468120996][2025-12-08 17:24:41.487822167]:[ParameterService] total message rate(Bytes/s) 2736709, total memory 1024MB,  high water line 0.632, current cache 80(sec)
+[dmz_recorder][NORMAL][INF][252468125124][2025-12-08 17:24:41.487826121]:[ParameterService] memory usage = 22.1%, remain entry = 757MB, remain patch = 49MB, current cache 80(sec)

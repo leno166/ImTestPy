@@ -1,5 +1,5 @@
 """
-@文件: emailTool.py
+@文件: tools.py
 @作者: 雷小鸥
 @日期: 2025/12/9 11:38
 @许可: MIT License
@@ -15,11 +15,12 @@ from email.header import Header
 from email import encoders
 import smtplib
 from typing import TypedDict
-from tests.utils.configuration import CONFIGURATION
-from tests.utils.logger import logger
 from functools import partial
+from src.log.logger import logger
 
-TEST_PATH = Path('./tests')
+from .configuration import CONFIGURATION
+
+WORKING_PATH = Path('.')
 
 EMAIL_CONF = CONFIGURATION['EMAIL']
 
@@ -82,7 +83,7 @@ _default_send = partial(
 )
 
 
-def send(subject: str, body: str, attachments: list[str] = None,
+def email_send(subject: str, body: str, attachments: list[str] = None,
          receiver: str = None, receiver_name: str = None) -> None:
     _receiver = receiver or EMAIL_CONF['receiver']
     _receiver_name = receiver_name or EMAIL_CONF["receiver_name"]
@@ -91,4 +92,4 @@ def send(subject: str, body: str, attachments: list[str] = None,
 
 if __name__ == '__main__':
     # send(subject='subject', body='body', attachments=[r'D:\workflow\ImTestPy\tests\conftest.py'], )
-    send(subject='subject', body='body', receiver='v-wuzhengfeng@immotors.com', receiver_name='xxx')
+    email_send(subject='subject', body='body', receiver='v-wuzhengfeng@immotors.com', receiver_name='xxx')

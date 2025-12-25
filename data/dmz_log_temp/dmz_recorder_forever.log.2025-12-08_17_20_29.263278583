@@ -1,0 +1,16 @@
+[dmz_recorder][NORMAL][INF][11441883676][2025-12-08 17:20:29.260559037]:{"detail":"","event_name":"version_info_event","event_seq":1000000,"event_state":"Recorder finds legacy files","event_uts":1765161526496797}
+[dmz_recorder][NORMAL][INF][11442410820][2025-12-08 17:20:29.261086185]:{"detail":"","event_name":"fota_calib_update_event","event_seq":1000001,"event_state":"Recorder finds legacy files","event_uts":1765161526496958}
+[dmz_recorder][NORMAL][INF][11442906032][2025-12-08 17:20:29.261581417]:{"detail":"","event_name":"vehicle_config_event","event_seq":1000002,"event_state":"Recorder finds legacy files","event_uts":1765161526497085}
+[dmz_recorder][NORMAL][INF][11445013936][2025-12-08 17:20:29.263689463]:{"detail":"","event_name":"switch_config_event","event_seq":1000003,"event_state":"Recorder finds legacy files","event_uts":1765161526497153}
+[dmz_recorder][NORMAL][INF][11445586032][2025-12-08 17:20:29.264261398]:{"detail":"","event_name":"b0bd_event","event_seq":1000004,"event_state":"Recorder finds legacy files","event_uts":1765163253075573}
+[dmz_recorder][NORMAL][INF][11446071852][2025-12-08 17:20:29.264768907]:{"detail":"","event_name":"b0bd_event","event_seq":1000005,"event_state":"Recorder finds legacy files","event_uts":1765164164619386}
+[dmz_recorder][NORMAL][INF][11446845712][2025-12-08 17:20:29.265521139]:{"detail":"","event_name":"b0bd_event","event_seq":1000006,"event_state":"Recorder finds legacy files","event_uts":1765164376497784}
+[dmz_recorder][NORMAL][INF][11447307732][2025-12-08 17:20:29.265983102]:{"detail":"","event_name":"b0bd_event","event_seq":1000007,"event_state":"Recorder finds legacy files","event_uts":1765165239903514}
+[dmz_recorder][NORMAL][INF][11448004060][2025-12-08 17:20:29.266679482]:{"detail":"","event_name":"b0bd_event","event_seq":1000008,"event_state":"Recorder finds legacy files","event_uts":1765170553262841}
+[dmz_recorder][NORMAL][INF][11448425864][2025-12-08 17:20:29.267101222]:{"detail":"","event_name":"b0bd_event","event_seq":1000009,"event_state":"Recorder finds legacy files","event_uts":1765182984696626}
+[dmz_recorder][NORMAL][INF][11449068336][2025-12-08 17:20:29.267743704]:{"detail":"","event_name":"b0bd_event","event_seq":1000010,"event_state":"Recorder finds legacy files","event_uts":1765185192670420}
+[dmz_recorder][NORMAL][INF][11449484452][2025-12-08 17:20:29.268160000]:{"detail":"","event_name":"b0bd_event","event_seq":1000011,"event_state":"Recorder finds legacy files","event_uts":1765185192772129}
+[dmz_recorder][NORMAL][INF][15289738236][2025-12-08 17:20:33.108413647]:{"detail":"","event_name":"b0bd_event","event_seq":2,"event_state":"Recorder received task","event_uts":1765185628108422}
+[dmz_recorder][NORMAL][INF][23476037088][2025-12-08 17:20:52.495738249]:{"detail":"","event_name":"b0bd_event","event_seq":2,"event_state":"Recorder starts writing files","event_uts":1765185628108422}
+[dmz_recorder][NORMAL][INF][23482202092][2025-12-08 17:20:52.501903693]:{"detail":"geofence not find gnss points","event_name":"b0bd_event","event_seq":2,"event_state":"Warning","event_uts":10289615}
+[dmz_recorder][NORMAL][INF][23526116048][2025-12-08 17:20:52.545818295]:{"detail":"","event_name":"b0bd_event","event_seq":2,"event_state":"Recorder dumping succeeded","event_uts":1765185628108422}

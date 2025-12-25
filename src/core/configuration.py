@@ -35,10 +35,10 @@ class ConfigurationDict(TypedDict):
 
 
 # todo: 修改成相对路径
-TEST_PATH = Path(r'D:\workflow\ImTestPy\tests')
+WORKING_PATH = Path(__file__).parent.parent.parent
 
 CONF = configparser.ConfigParser(interpolation=None)
-CONF.read(TEST_PATH / 'configs' / 'config.ini')
+CONF.read(WORKING_PATH / 'configs' / 'config.ini')
 
 # 提供只读配置
 CONFIGURATION: ConfigurationDict = {k: dict(v) for k, v in CONF.items() if k != 'DEFAULT'}  # type: ignore

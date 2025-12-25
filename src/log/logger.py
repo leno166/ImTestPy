@@ -10,12 +10,12 @@ import logging
 import re
 from pathlib import Path
 from datetime import datetime, timedelta
-from .configuration import CONFIGURATION
+from src.core.configuration import CONFIGURATION
 
-TEST_PATH = Path(r'D:\workflow\ImTestPy\tests')
+WORKING_PATH = Path(__file__).parent.parent.parent
 
 LOG_PATH = CONFIGURATION['LOGGING']['path']
-LOG_DIR_PATH = TEST_PATH / LOG_PATH
+LOG_DIR_PATH = WORKING_PATH / LOG_PATH
 LOG_DIR_PATH.mkdir(exist_ok=True)
 
 LOG_NAME = CONFIGURATION['LOGGING']['name']
